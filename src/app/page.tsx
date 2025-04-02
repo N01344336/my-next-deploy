@@ -4,7 +4,7 @@ import axios from "axios";
 
 const App = () => {
   const [imageUrl, setImageUrl] = useState("");
-  const [error, setError] = useState(null);
+  const [error, setError] = useState("");
   useEffect(() => {
     axios
       .get("https://picsum.photos/200/300")
